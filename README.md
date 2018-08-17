@@ -34,3 +34,27 @@ The python file [eval.py](https://github.com/badrex/HMMTagger/blob/master/eval.p
 ```
 $ python  data/de-eval.tt tagged_abs_disc.tt
 ```
+
+Output:
+
+```
+Comparing gold file "data/de-eval.tt" and system file "tagged_abs_disc.tt"
+
+Precision, recall, and F1 score:
+
+  DET 0.9092 0.9761 0.9415
+ NOUN 0.8476 0.9835 0.9105
+ VERB 0.9605 0.8712 0.9137
+  ADP 0.9632 0.9762 0.9697
+    . 0.9983 0.9992 0.9987
+ CONJ 0.9544 0.8974 0.9250
+ PRON 0.9391 0.8309 0.8817
+  ADV 0.9234 0.7893 0.8511
+  ADJ 0.7993 0.6485 0.7160
+  NUM 0.9906 0.7778 0.8714
+  PRT 0.8730 0.8730 0.8730
+    X 0.2000 0.0909 0.1250
+
+Accuracy: 0.9136
+
+```
