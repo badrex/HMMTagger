@@ -1,4 +1,4 @@
-# Parts-of-Speech Tagging based on Hidden Markov Model
+# POS Tagging wtih Hidden Markov Models
 
 This repository contains an elegant implementation of a POS tagger based on Hidden Markov Models. To a better view of the internal structure of the developed modules, check the jupypter [notebook](https://github.com/badrex/HMMTagger/blob/master/HMM_POS_Tagger.ipynb) in this repository.
 
