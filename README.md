@@ -32,7 +32,7 @@ $ python  test_tagger.py \
 The python file [eval.py](https://github.com/badrex/HMMTagger/blob/master/eval.py) can used to quantitatively evaluate the performance of the tagger:
 
 ```
-$ python  data/de-eval.tt tagged_abs_disc.tt
+$ python eval.py data/de-eval.tt tagged_abs_disc.tt
 ```
 
 Output:
