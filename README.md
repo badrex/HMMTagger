@@ -1,6 +1,6 @@
 # POS Tagging with Hidden Markov Models
 
-This repository contains an elegant implementation of a POS tagger based on Hidden Markov Models. To a better view of the internal structure of the developed modules, check the jupypter [notebook](https://github.com/badrex/HMMTagger/blob/master/HMM_POS_Tagger.ipynb) in this repository.
+This repository contains an elegant implementation of a POS tagger based on Hidden Markov Models. To get a better view of the internal structure of the developed modules, check the jupypter [notebook](https://github.com/badrex/HMMTagger/blob/master/HMM_POS_Tagger.ipynb) in this repository.
 
 The HMMTagger class in [HMMTagger.py](https://github.com/badrex/HMMTagger/blob/master/HMMTagger.py) relies on clean and well-document implementation of another class that represents a discrete probability distribution with different smoothing techniques. The probabilistic components of the HMM can smoothed using simple add-one smoothing or more advanced absolute discounting.
 
